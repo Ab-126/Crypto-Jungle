@@ -1,0 +1,76 @@
+.title{
+    flex: 1;
+    color: #347C2C;
+    font-family: 'Montserrat Alternates' !important; 
+    font-weight: bold !important;
+    cursor: pointer;
+}
+
+.sidebar-container{
+    width: 350px;
+    padding: 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family:Verdana;
+}
+
+.sidebar-profile{
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 92%;
+}
+
+.sidebar-picture{
+    width: 200px !important;
+    height: 200px !important;
+    cursor: pointer;
+    background-color: #347C2C !important;
+    object-fit: contain;
+}
+
+.sidebar-logout{
+    height: 8%;
+    width: 100%;
+    background-color: #347C2C !important;
+    margin-top: 20px !important;
+}
+
+.sidebar-watchlist{
+    flex: 1;
+    width: 100%;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 15px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    overflow-y: scroll;
+}
+
+.header-google{
+    padding: 24px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20;
+    font-size: 20px;
+}
+
+.watchlist-coin{
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #347C2C;
+    box-shadow: 0 0 3px black;
+}

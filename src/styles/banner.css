@@ -1,0 +1,25 @@
+.banner{
+    background-image: url("../../public/jungle.jpg");
+    height: 500px;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bannerContent{
+    /* height: 500px; */
+    /* width: 700px; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    justify-content: space-around;
+}
+
+.tagline{
+    display: flex;
+    height: 40%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

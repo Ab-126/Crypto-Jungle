@@ -1,0 +1,15 @@
+.carousel{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.carouselItem{
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+}
